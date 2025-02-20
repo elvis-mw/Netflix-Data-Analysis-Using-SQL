@@ -5,7 +5,7 @@ This project focuses on analyzing Netflix's dataset using SQL. The dataset inclu
 ## Dataset Description
 The dataset used fro this analysis is provided and its also available for free in kaggle.com.
 
-The dataset contains key attributes such as:
+### The dataset contains key attributes such as:
 
 show_id: Unique identifier for each show
 
