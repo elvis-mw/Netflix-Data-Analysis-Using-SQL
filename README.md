@@ -440,7 +440,25 @@ SELECT title,
 		GO
 ```
 Insight:
-- These queries help categorize Netflix content based on its themes using keyword-based text analysis. This could be valuable for: ✅ Content moderation & parental control features
+- These queries help categorize Netflix content based on its themes using keyword-based text analysis. This could be valuable for:
+-  Content moderation & parental control features
 - Improving content recommendations based on user preferences
 - Analyzing trends in violent vs. non-violent content
 
+## Some of the key take aways
+
+- Netflix hosts a significant number of movies compared to TV shows.
+
+- Drama and Comedy are among the most dominant genres.
+
+- The content library has been growing consistently over the years.
+
+- The USA is a leading contributor of Netflix content.
+
+- The majority of content falls within PG-13, TV-MA, and R ratings.
+
+- Some directors and actors are highly prolific in Netflix productions.
+
+  ### This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+
+  ## Author - Elvis Mwangi 
