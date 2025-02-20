@@ -7,27 +7,27 @@ The dataset used fro this analysis is provided and its also available for free i
 
 ### The dataset contains key attributes such as:
 
-show_id: Unique identifier for each show
+- show_id: Unique identifier for each show
 
-type: Indicates whether the content is a movie or TV show
+- type: Indicates whether the content is a movie or TV show
 
-title: Name of the content
+- title: Name of the content
 
-director: Director(s) of the content
+- director: Director(s) of the content
 
-cast: Leading actors/actresses
+- cast: Leading actors/actresses
 
-country: Country of origin
+- country: Country of origin
 
-date_added: Date when the content was added to Netflix
+- date_added: Date when the content was added to Netflix
 
-release_year: Year of release
+- release_year: Year of release
 
-rating: Content rating (e.g., PG, R, TV-MA)
+- rating: Content rating (e.g., PG, R, TV-MA)
 
-duration: Duration of movies or number of seasons for TV shows
+- duration: Duration of movies or number of seasons for TV shows
 
-listed_in: Categories or genres of the content
+- listed_in: Categories or genres of the content
 
 ## 🛠️ SQL Queries and Insights
 
