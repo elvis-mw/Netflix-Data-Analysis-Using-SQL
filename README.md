@@ -69,6 +69,7 @@ SELECT genre,
 		ORDER BY genre_count DESC;
 		GO
   ```
+Insight: This query helps in identifying the most frequently listed genres on Netflix, providing insights into the platform’s content focus. It can be useful for trend analysis, content strategy planning, and market research.
 ### 3.Find content Release Trends Over Time.
 ```sql
 SELECT release_year,
@@ -78,6 +79,10 @@ SELECT release_year,
 		ORDER BY release_year DESC;
 		GO
 ```
+Insight : This query helps in understanding the trends in content production by showing how many movies and TV shows were released each year.
+
+a) It can help analyze whether Netflix has been adding more recent content or if older titles dominate its catalog.
+b) The results can be used for trend forecasting and content acquisition strategies.
 ### 4.Find the content Distribution by Country.
 ```sql
 SELECT country,
@@ -87,6 +92,9 @@ SELECT country,
 		ORDER BY content_count DESC; 
 		GO
 ```
+Insight: - This query helps analyze which countries contribute the most content to Netflix.
+- It can highlight global content distribution trends and which markets dominate Netflix’s library.
+- The results may reveal whether Netflix focuses more on specific countries or has a diverse international catalog.
 ### 5.find the Content Count by Rating.
 ```sql
 SELECT rating,
@@ -96,6 +104,11 @@ SELECT rating,
 		ORDER BY content_count DESC;
 		 GO
 ```
+Insight:
+-This query helps understand the distribution of content ratings on Netflix.
+-It shows whether Netflix has more content rated PG, TV-MA, R, or other categories.
+-It can help parents or viewers filter content based on age appropriateness.
+-This data may also reveal Netflix’s focus on certain audience demographics (e.g., family-friendly vs. mature content).
 ### 6.Find the top 10 Directors with the Most Content.
 ```sql
 SELECT TOP 10
@@ -107,6 +120,10 @@ SELECT TOP 10
 		ORDER BY DIR_count DESC;
 		GO
 ```
+Insight:
+-This query highlights the most prolific directors on Netflix.
+-It provides insight into which directors contribute the most content, helping with trend analysis in content creation.
+-This information can be useful for viewers, industry analysts, and Netflix's content strategy team.
 ### 7.Find Content Categorization Based on Release Year and Genre.
 ```sql
 SELECT release_year,genre,
@@ -116,6 +133,10 @@ SELECT release_year,genre,
 		ORDER BY release_year DESC, content_count DESC;
 		GO
 ```
+Insight:
+-This query helps identify which genres dominated Netflix's content releases in different years.
+-It reveals trends in genre popularity over time (e.g., whether Sci-Fi content has increased in recent years).
+-Useful for content creators, analysts, and streaming strategists to make data-driven decisions.
 ### 8.Find the most common rating for movies and TV shows.
 ```sql
 SELECT type,
@@ -126,6 +147,10 @@ SELECT type,
 		ORDER BY type, rate_count DESC;
 		GO
 ```
+InsightP:
+-This query helps identify which ratings are most common for Movies and TV Shows.
+-It can show whether TV Shows tend to have higher or lower ratings compared to Movies.
+-Useful for content regulators, marketers, and Netflix analysts to assess trends in content ratings.
 ### 9.Find only the most common rating per type ( This applies a Common Table Expression (CTE) ).
 ```sql
 WITH RankedRatings AS (
