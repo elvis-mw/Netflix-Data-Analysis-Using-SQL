@@ -59,6 +59,7 @@ SELECT type,
 		GROUP BY type;    
 		GO
   ```
+Insight:This query helps in understanding the distribution of Movies vs. TV Shows on Netflix, which can be useful for analyzing content trends and platform focus.
 ### 2.Find the distribution of content by genre.
 ```sql
 SELECT genre,
