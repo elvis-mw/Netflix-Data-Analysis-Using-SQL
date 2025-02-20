@@ -80,7 +80,7 @@ SELECT release_year,
 		GO
 ```
 Insight : 
--This query helps in understanding the trends in content production by showing how many movies and TV shows were released each year.
+- This query helps in understanding the trends in content production by showing how many movies and TV shows were released each year.
 
 -It can help analyze whether Netflix has been adding more recent content or if older titles dominate its catalog.
 
