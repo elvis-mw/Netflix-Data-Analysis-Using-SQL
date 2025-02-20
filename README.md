@@ -96,11 +96,11 @@ SELECT country,
 		GO
 ```
 Insight: 
-- This query helps analyze which countries contribute the most content to Netflix.
+-This query helps analyze which countries contribute the most content to Netflix.
 
-- It can highlight global content distribution trends and which markets dominate Netflix’s library.
+-It can highlight global content distribution trends and which markets dominate Netflix’s library.
 
-- The results may reveal whether Netflix focuses more on specific countries or has a diverse international catalog.
+-The results may reveal whether Netflix focuses more on specific countries or has a diverse international catalog.
   
 ### 5.find the Content Count by Rating.
 ```sql
