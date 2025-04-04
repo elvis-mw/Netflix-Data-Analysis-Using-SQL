@@ -19,7 +19,7 @@ The dataset used fro this analysis is provided and its also available for free i
 - director: Director(s) of the content
 
 - cast: Leading actors/actresses
-- 
+  
 - country: Country of origin
 
 - date_added: Date when the content was added to Netflix
