@@ -32,7 +32,12 @@ The dataset used fro this analysis is provided and its also available for free i
 
 - listed_in: Categories or genres of the content
 
-## 🛠️ SQL Queries and Insights
+## TOOLS
+- Excel- Data preprocessing.
+- SQL(SSMS)- Data Analysis.
+- Power BI- Reporting and visualization.
+
+## SQL Queries and Insights
 
 ## SCHEMAS
 ```sql
