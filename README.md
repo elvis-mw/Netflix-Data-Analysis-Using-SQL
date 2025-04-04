@@ -1,3 +1,6 @@
+
+![netflix](https://github.com/user-attachments/assets/3b5e2eba-2062-40a7-8c9a-7633ff4d58b9)
+
 # Netflix movies and shows SQL data analysis 
 ## Overview
 This project focuses on analyzing Netflix's dataset using SQL. The dataset includes information about movies, TV shows, release years, genres, and other relevant metadata. The objective is to derive valuable insights, such as trends in content production, most popular genres, and patterns in content ratings and answer some business questions. This resdme file contains the project's objectives ,solution to various business questions this analysis seeks to asnwer and some key takeaways.
@@ -16,6 +19,7 @@ The dataset used fro this analysis is provided and its also available for free i
 - director: Director(s) of the content
 
 - cast: Leading actors/actresses
+![netflix](https://github.com/user-attachments/assets/a3e0eaee-63f2-4b1b-9b4f-1c63211aaf40)
 
 - country: Country of origin
 
